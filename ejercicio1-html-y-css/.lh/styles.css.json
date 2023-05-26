@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1685127046842,
@@ -16,6 +16,14 @@
                 {
                     "date": 1685127059516,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     width: 300px;\r\n     padding: 50px 20px;\r\n     border-radius: 20px;\r\n     margin: 20px auto 20px;    \r\n-    background: linear-gradient(#534dc9, #534dc9, #6e1366);\r\n+    background: linear-gradient(#534dc9, #4dc9b0, #6e1366);\r\n     box-shadow: 5px 10px 5px 10px #5f4141;\r\n     color: #FFFFFF;\r\n     font-family: Arial, Helvetica, sans-serif;\r\n     font-size: 25px;\r\n"
+                },
+                {
+                    "date": 1685127325202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     width: 300px;\r\n     padding: 50px 20px;\r\n     border-radius: 20px;\r\n     margin: 20px auto 20px;    \r\n-    background: linear-gradient(#534dc9, #4dc9b0, #6e1366);\r\n+    background: linear-gradient(#534dc9, #39a58f, #6e1366);\r\n     box-shadow: 5px 10px 5px 10px #5f4141;\r\n     color: #FFFFFF;\r\n     font-family: Arial, Helvetica, sans-serif;\r\n     font-size: 25px;\r\n"
+                },
+                {
+                    "date": 1685127344459,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     padding: 50px 20px;\r\n     border-radius: 20px;\r\n     margin: 20px auto 20px;    \r\n     background: linear-gradient(#534dc9, #39a58f, #6e1366);\r\n-    box-shadow: 5px 10px 5px 10px #5f4141;\r\n+    box-shadow: 5px 10px 5px 10px #3f3030;\r\n     color: #FFFFFF;\r\n     font-family: Arial, Helvetica, sans-serif;\r\n     font-size: 25px;\r\n     position: relative;\r\n"
                 }
             ],
             "date": 1685127046842,
