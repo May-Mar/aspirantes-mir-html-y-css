@@ -1,46 +1,50 @@
 body {
     background: #FFFFFF;
+    margin: 2em 0;
   }
 
-  .formulario {
+.formulario {
     width: 300px;
-    padding: 40px;
-    margin: 0 auto;
-    border-radius: 15px;
-    background: linear-gradient(#bd09b7, #6b4cf5);
-    box-shadow: 10px 10px 10px 0 #000000;
-  }
+    padding: 50px 20px;
+    border-radius: 20px;
+    margin: 20px auto 20px;    
+    background: linear-gradient(#534dc9, #39a58f, #6e1366);
+    box-shadow: 5px 10px 5px 10px #5f4141;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    position: relative;
+}
 
-  .form-group label {
+.login{
+   margin: 0 0 15px 0;
+   font-size: 2em;
+   font-weight: bold;
+}
+
+.caja{
+    width: 94%;
     padding: 7px;
+    margin:  0 0 10px;
+}
+
+.genero{
     width: 100%;
-    color: #FFFFFF;
-    display: inline-block;
-    font-size: 100%;
-    
-  }
+    padding: 7px;
+    margin:  0 0 1em;
 
-  .login-form h2 {
-    font-size: 30px;
-    color: #FFFFFF;
-    margin-bottom: 0 10px 0;
-  }
+}
 
+#ingresar{
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    border-radius: 2px;
+    padding: 5px 15px 5px 15px;
+}
 
-  .form-group button {    
-    padding: 5px 15px 5px 15px ;
-    color: #000000;
-    cursor: pointer;
-    float: right;
-  }
-
-  .form-group {
-    margin-bottom: 10px;
-
-  }
-
-
-
-
- 
-
+@media(max-width: 768px){
+    .formulario{
+        width: 100%;
+    }
+}

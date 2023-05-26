@@ -1,0 +1,26 @@
+{
+    "sourceFile": "styles.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1685127046842,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1685127053898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     width: 300px;\r\n     padding: 50px 20px;\r\n     border-radius: 20px;\r\n     margin: 20px auto 20px;    \r\n-    background: linear-gradient(#534dc9,  #6e1366);\r\n+    background: linear-gradient(#534dc9, #534dc9, #6e1366);\r\n     box-shadow: 5px 10px 5px 10px #5f4141;\r\n     color: #FFFFFF;\r\n     font-family: Arial, Helvetica, sans-serif;\r\n     font-size: 25px;\r\n"
+                },
+                {
+                    "date": 1685127059516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     width: 300px;\r\n     padding: 50px 20px;\r\n     border-radius: 20px;\r\n     margin: 20px auto 20px;    \r\n-    background: linear-gradient(#534dc9, #534dc9, #6e1366);\r\n+    background: linear-gradient(#534dc9, #4dc9b0, #6e1366);\r\n     box-shadow: 5px 10px 5px 10px #5f4141;\r\n     color: #FFFFFF;\r\n     font-family: Arial, Helvetica, sans-serif;\r\n     font-size: 25px;\r\n"
+                }
+            ],
+            "date": 1685127046842,
+            "name": "Commit-0",
+            "content": "body {\r\n    background: #FFFFFF;\r\n    margin: 2em 0;\r\n  }\r\n\r\n.formulario {\r\n    width: 300px;\r\n    padding: 50px 20px;\r\n    border-radius: 20px;\r\n    margin: 20px auto 20px;    \r\n    background: linear-gradient(#534dc9,  #6e1366);\r\n    box-shadow: 5px 10px 5px 10px #5f4141;\r\n    color: #FFFFFF;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    font-size: 25px;\r\n    position: relative;\r\n}\r\n\r\n.login{\r\n   margin: 0 0 15px 0;\r\n   font-size: 2em;\r\n   font-weight: bold;\r\n}\r\n\r\n.caja{\r\n    width: 94%;\r\n    padding: 7px;\r\n    margin:  0 0 10px;\r\n}\r\n\r\n.genero{\r\n    width: 100%;\r\n    padding: 7px;\r\n    margin:  0 0 1em;\r\n\r\n}\r\n\r\n#ingresar{\r\n    position: absolute;\r\n    bottom: 10px;\r\n    right: 40px;\r\n    border-radius: 2px;\r\n    padding: 5px 15px 5px 15px;\r\n}\r\n\r\n@media(max-width: 768px){\r\n    .formulario{\r\n        width: 100%;\r\n    }\r\n}"
+        }
+    ]
+}
